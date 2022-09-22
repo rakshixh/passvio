@@ -1,0 +1,71 @@
+.text-center {
+    margin-top: 30px;    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 100px;
+}
+
+
+.bttn {
+    padding-top: 30px;
+}
+
+button {
+    width: 175px;
+    height: 45px;
+    font-weight: bold;
+    background-color: #264653;
+    border: 0px;
+    border-radius: 20px;
+    color: #CAF0F8;
+}
+
+button:hover {
+    background-color: #073B4C;
+    color: wheat;
+}
+
+.floating {
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating { 
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noofpass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lgoutbtn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}

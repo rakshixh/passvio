@@ -1,0 +1,95 @@
+body {
+    background-color: #264653;
+}
+
+.crdalign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 20px 20px 20px;
+    background-color: #2A9D8F;
+
+    border-radius: 30px;
+    border: 0px;
+   
+}
+
+.container {
+    width: 300px;
+}
+
+input[type='text'], input[type='password'] {
+    width: 280px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+}
+input[type='submit']{
+    color: #fff;
+    background-color:   #E76F51;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 280px;
+    height: 40px;
+    cursor:pointer;
+}
+input[type='submit']:hover {
+    background-color: #14213D;
+}
+
+.tb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    width: 50%;
+    color: wheat;
+}
+
+.btn-trash {
+    width: 70px;
+    height: 30px;
+    background-color: #E76F51;
+    color: black;
+    border: 0px;
+}
+
+.bttns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    width: 100px;
+    height: 40px;
+    background-color: #E9C46A;
+    color: #264653;
+    border: 0px;
+    margin-right: 10px;
+}
+
+.btns:hover {
+    background-color: #E76F51;
+    color: rgb(245, 222, 179);
+}
+
+.bttns>.btns:not(:last-child) {
+    margin-right: 10px;
+   }

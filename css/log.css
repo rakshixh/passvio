@@ -1,0 +1,81 @@
+ body {
+     font-family:Arial, Sans-Serif; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: linear-gradient(10deg, #33ccff, #ff99cc);
+     height: 752px;
+ } 
+
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+
+img {
+    position: absolute;
+    top: -400px;
+    left: 418px;
+    z-index: -1;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.form{
+     width: 300px;
+     margin: 10px;
+}
+
+input[type='email'], input[type='password'] {
+     width: 280px;
+     border-radius: 10px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 20px;
+}
+input[type='submit']{
+     color: #fff;
+     background-color:   #264653;
+     font-size: 20px;
+     font-weight: bold;
+     border: 0px;
+     border-radius: 10px;
+     margin-top: 20px;
+     width: 280px;
+     height: 40px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: #14213D;
+}
+
+.para {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+a{
+    color:#E76F51;
+    text-decoration:none;
+}
+a:hover{
+    color: #E63946;
+    text-decoration:none;
+}
